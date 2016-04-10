@@ -1,11 +1,11 @@
 {
   "manifest": "1",
-  "client_id": "CLIENT_ID",
-  "version": "1.0.0",
-  "callback_url": "ROOT_URL/oauth/phase-one", 
-  "oauth_final_destination": "home",
+  "client_id": "1983016906",
+  "version": "1.2",
+  "callback_url": "https://weebly-commerce.herokuapp.com/oauth/phase-one", 
+  "oauth_final_destination": "editor",
   "webhooks": {
-    "callback_url": "ROOT_URL/webhooks/callback",
+    "callback_url": "https://weebly-commerce.herokuapp.com/webhooks/callback",
     "events": [
       "user.update",
       "site.update", "site.copy", "site.publish", "site.delete",
